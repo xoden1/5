@@ -14,12 +14,14 @@ bool is_null(int i) {
 	return i == 0;
 }
 
-void show(std::pair<int, std::string> p) {
+int show(std::pair<int, std::string> p) {
 	std::cout << p.first << " = " << p.second << "; ";
+	return 0;
 }
 
-void show_v(int i) {
+int show_v(int i) {
 	std::cout << i << ' ';
+	return 0;
 }
 
 int main() {
